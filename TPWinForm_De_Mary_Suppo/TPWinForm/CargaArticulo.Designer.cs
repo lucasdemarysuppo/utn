@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CargaArticulo));
             this.lblCodigoArticulo = new System.Windows.Forms.Label();
             this.lblNombre = new System.Windows.Forms.Label();
             this.lblDescripcion = new System.Windows.Forms.Label();
@@ -93,9 +94,11 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(334, 19);
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(300, 14);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(100, 101);
+            this.pictureBox1.Size = new System.Drawing.Size(130, 130);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 5;
             this.pictureBox1.TabStop = false;
             // 
@@ -154,7 +157,7 @@
             // 
             // btnBuscarImagen
             // 
-            this.btnBuscarImagen.Location = new System.Drawing.Point(334, 136);
+            this.btnBuscarImagen.Location = new System.Drawing.Point(355, 150);
             this.btnBuscarImagen.Name = "btnBuscarImagen";
             this.btnBuscarImagen.Size = new System.Drawing.Size(75, 23);
             this.btnBuscarImagen.TabIndex = 13;
@@ -165,9 +168,9 @@
             // 
             this.btnCargarArticulo.Location = new System.Drawing.Point(185, 297);
             this.btnCargarArticulo.Name = "btnCargarArticulo";
-            this.btnCargarArticulo.Size = new System.Drawing.Size(78, 25);
+            this.btnCargarArticulo.Size = new System.Drawing.Size(104, 32);
             this.btnCargarArticulo.TabIndex = 14;
-            this.btnCargarArticulo.Text = "&Cargar";
+            this.btnCargarArticulo.Text = "&Cargar articulo";
             this.btnCargarArticulo.UseVisualStyleBackColor = true;
             this.btnCargarArticulo.Click += new System.EventHandler(this.btnCargarArticulo_Click);
             // 
@@ -192,6 +195,7 @@
             this.Controls.Add(this.lblNombre);
             this.Controls.Add(this.lblCodigoArticulo);
             this.Name = "CargaArticulo";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "CargaArticulo";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

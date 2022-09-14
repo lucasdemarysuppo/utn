@@ -29,5 +29,18 @@ namespace TPWinForm
             ventana.MdiParent = this;
             ventana.Show();
         }
+
+        private void bajaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            foreach (var item in Application.OpenForms)
+            {
+                if (item.GetType() == typeof(Baja))
+                    return;
+
+            }
+            Baja ventana = new Baja();
+            ventana.MdiParent = this;
+            ventana.Show();
+        }
     }
 }
