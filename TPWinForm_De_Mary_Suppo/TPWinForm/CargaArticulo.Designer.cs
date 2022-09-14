@@ -59,7 +59,7 @@
             // lblNombre
             // 
             this.lblNombre.AutoSize = true;
-            this.lblNombre.Location = new System.Drawing.Point(24, 61);
+            this.lblNombre.Location = new System.Drawing.Point(139, 27);
             this.lblNombre.Name = "lblNombre";
             this.lblNombre.Size = new System.Drawing.Size(44, 13);
             this.lblNombre.TabIndex = 1;
@@ -68,7 +68,7 @@
             // lblDescripcion
             // 
             this.lblDescripcion.AutoSize = true;
-            this.lblDescripcion.Location = new System.Drawing.Point(24, 102);
+            this.lblDescripcion.Location = new System.Drawing.Point(9, 93);
             this.lblDescripcion.Name = "lblDescripcion";
             this.lblDescripcion.Size = new System.Drawing.Size(63, 13);
             this.lblDescripcion.TabIndex = 2;
@@ -77,7 +77,7 @@
             // lblMarca
             // 
             this.lblMarca.AutoSize = true;
-            this.lblMarca.Location = new System.Drawing.Point(24, 141);
+            this.lblMarca.Location = new System.Drawing.Point(142, 93);
             this.lblMarca.Name = "lblMarca";
             this.lblMarca.Size = new System.Drawing.Size(37, 13);
             this.lblMarca.TabIndex = 3;
@@ -86,7 +86,7 @@
             // lblCategoria
             // 
             this.lblCategoria.AutoSize = true;
-            this.lblCategoria.Location = new System.Drawing.Point(24, 177);
+            this.lblCategoria.Location = new System.Drawing.Point(9, 154);
             this.lblCategoria.Name = "lblCategoria";
             this.lblCategoria.Size = new System.Drawing.Size(54, 13);
             this.lblCategoria.TabIndex = 4;
@@ -95,7 +95,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(300, 14);
+            this.pictureBox1.Location = new System.Drawing.Point(312, 12);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(130, 130);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -105,7 +105,7 @@
             // lblPrecio
             // 
             this.lblPrecio.AutoSize = true;
-            this.lblPrecio.Location = new System.Drawing.Point(24, 214);
+            this.lblPrecio.Location = new System.Drawing.Point(158, 153);
             this.lblPrecio.Name = "lblPrecio";
             this.lblPrecio.Size = new System.Drawing.Size(37, 13);
             this.lblPrecio.TabIndex = 6;
@@ -113,21 +113,21 @@
             // 
             // txtCodigoArticulo
             // 
-            this.txtCodigoArticulo.Location = new System.Drawing.Point(142, 19);
+            this.txtCodigoArticulo.Location = new System.Drawing.Point(12, 43);
             this.txtCodigoArticulo.Name = "txtCodigoArticulo";
             this.txtCodigoArticulo.Size = new System.Drawing.Size(121, 20);
             this.txtCodigoArticulo.TabIndex = 7;
             // 
             // txtNombre
             // 
-            this.txtNombre.Location = new System.Drawing.Point(142, 53);
+            this.txtNombre.Location = new System.Drawing.Point(142, 43);
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.Size = new System.Drawing.Size(121, 20);
             this.txtNombre.TabIndex = 8;
             // 
             // txtDescripcion
             // 
-            this.txtDescripcion.Location = new System.Drawing.Point(142, 94);
+            this.txtDescripcion.Location = new System.Drawing.Point(12, 109);
             this.txtDescripcion.Name = "txtDescripcion";
             this.txtDescripcion.Size = new System.Drawing.Size(121, 20);
             this.txtDescripcion.TabIndex = 9;
@@ -135,7 +135,7 @@
             // cmbMarca
             // 
             this.cmbMarca.FormattingEnabled = true;
-            this.cmbMarca.Location = new System.Drawing.Point(142, 132);
+            this.cmbMarca.Location = new System.Drawing.Point(142, 109);
             this.cmbMarca.Name = "cmbMarca";
             this.cmbMarca.Size = new System.Drawing.Size(121, 21);
             this.cmbMarca.TabIndex = 10;
@@ -143,21 +143,21 @@
             // cmbCategoria
             // 
             this.cmbCategoria.FormattingEnabled = true;
-            this.cmbCategoria.Location = new System.Drawing.Point(142, 177);
+            this.cmbCategoria.Location = new System.Drawing.Point(9, 169);
             this.cmbCategoria.Name = "cmbCategoria";
             this.cmbCategoria.Size = new System.Drawing.Size(121, 21);
             this.cmbCategoria.TabIndex = 11;
             // 
             // txtPrecio
             // 
-            this.txtPrecio.Location = new System.Drawing.Point(142, 214);
+            this.txtPrecio.Location = new System.Drawing.Point(145, 169);
             this.txtPrecio.Name = "txtPrecio";
             this.txtPrecio.Size = new System.Drawing.Size(121, 20);
             this.txtPrecio.TabIndex = 12;
             // 
             // btnBuscarImagen
             // 
-            this.btnBuscarImagen.Location = new System.Drawing.Point(355, 150);
+            this.btnBuscarImagen.Location = new System.Drawing.Point(353, 169);
             this.btnBuscarImagen.Name = "btnBuscarImagen";
             this.btnBuscarImagen.Size = new System.Drawing.Size(75, 23);
             this.btnBuscarImagen.TabIndex = 13;
@@ -166,7 +166,7 @@
             // 
             // btnCargarArticulo
             // 
-            this.btnCargarArticulo.Location = new System.Drawing.Point(185, 297);
+            this.btnCargarArticulo.Location = new System.Drawing.Point(176, 278);
             this.btnCargarArticulo.Name = "btnCargarArticulo";
             this.btnCargarArticulo.Size = new System.Drawing.Size(104, 32);
             this.btnCargarArticulo.TabIndex = 14;
